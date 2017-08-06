@@ -1,0 +1,12 @@
+body {
+  background-image: url('imagens/carta-verde.jpg');
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,374 @@
+/*
+  BODY
+*/
+
+body {
+  background-image: url('imagens/carta-pronta.jpg');
+  background-size: cover;
+  margin: 0;
+
+}
+
+/*
+NAVEGAÇÃO
+*/
+
+#nav{
+  background-color: black;
+}
+
+#nav a{
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Pacifico, serif;
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 350;
+    font-size: 20px;
+    font-family: Pacifico, serif;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav ul li a.selecionado{
+  font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+/*
+HOME
+*/
+
+#mens {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+*.invisivel {
+  display: none;
+}
+
+.header{
+    padding-left: 10px;
+    color: white;
+}
+
+.container{
+  padding-top: 100px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.coluna-esquerda{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.coluna-esquerda div{
+    display: flex;
+}
+
+.coluna-esquerda div p{
+    font-size: 30px;
+    color: #aaa;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#btn-Home{
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.coluna-direita{
+    width: 50%;
+    padding-top: 0px;
+}
+
+.coluna-esquerda div{
+    display: flex;
+}
+
+@media(max-width: 600px){
+    .container{
+        display: block;
+        padding-top: 100px;
+    }
+
+    .coluna-direita{
+        width: 100%;
+    }
+
+    .coluna-esquerda{
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .coluna-direita img{
+      padding-top: 50px;
+      width: 300px;
+    }
+
+    #btn-Home{
+      font-size: 20px;
+    }
+
+    #nav a{
+      font-size: 10px;
+      padding-left: 3px;
+      width: 15%;
+    }
+
+    #nav ul{
+      display: contents;
+    }
+
+    #nav ul li{
+      width: 60px;
+    }
+
+    .coluna-esquerda div p{
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+/*
+
+*/
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.idiomas img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.idiomas{
+  padding-top: 50px;
+}
+.servicos {
+  display: flex;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.servicos-esquerda{
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.servicos-direita{
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+
+}
+
+.servicos-direita img{
+  height: 120px;
+}
+.servicos-direita td{
+  padding: 0;
+}
+
+.servicos h1{
+  margin: 0;
+  padding-bottom: 20px;
+}
+.servicos ul{
+  color: white;
+  font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.servicos li{
+  padding-bottom: 60px;
+}
+
+.pad{
+  padding-left: 50px;
+}
+
+
+.historia{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.contato {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: large;
+  background-image: url('imagens/Mapa.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.icones {
+  height: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.icones img {
+  padding-left: 20px;
+}
+
+.rodape {
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+  height: 150px;
+
+}
+@media (max-width: 600px){
+body{
+}
+.servicos{
+  display: block;
+  width: 100%;
+}
+.servicos-direita{
+  display: flex;
+  width: 100%;
+}
+.servicos-esquerda{
+  width: 100%;
+}
+.servicos-direita img{
+  height: 50px;
+}
+
+.servicos h1{
+  margin-left: 30px;
+}
+
+  table{
+  width: 100%;
+  }
+}
+
+.contato {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: large;
+  background-image: url('imagens/Mapa.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.praia {
+  margin: 0;
+  padding-top: 25px;
+}
+
+.traduci {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.icones {
+  height: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.icones img {
+  padding-left: 20px;
+}
+
+footer {
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+  height: 150px;
+}
+
+.footer h1 {
+  margin: 0;
+}
+
+
+.celular {
+  float: left;
+}
+
+.invisivel {
+  display: none;
+}
+
+.texto {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  float: right;
+  font-size: xx-large;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 250px;
+}
